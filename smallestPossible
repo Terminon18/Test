@@ -1,5 +1,6 @@
 Option Explicit
 
+'First method with predefined function
 Sub KleinsterGemeinsamer()
 
     'Declare variable
@@ -10,4 +11,28 @@ Sub KleinsterGemeinsamer()
     'return lowest number in range
     ws.Range("C2") = Application.WorksheetFunction.Small(ws.Range("A1:A6"), 1)
     
+End Sub
+
+
+
+'Second method with for loop and start number
+Sub Kleinste_Zahl()
+
+    Dim x As Integer
+    Dim mm As Integer
+    
+    mm = 10000 'Anfangswert
+    
+    For x = 1 To 5
+        
+        If Cells(x, 1) < mm Then
+        
+            mm = Cells(x, 1)
+            
+        End If
+      
+    Next x
+        
+        Cells(4, 3).Value = mm
+
 End Sub
