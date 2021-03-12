@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>asdf</title>
+    </head>
+    <body>
+        <table border="1" cellspacing="0" align="center">
+            <tr>
+                <td align="center"
+                    colspan="6">
+                    <b>Time Table</b>       
+                </td>
+            </tr>
+            <tr>
+                <td align="center" 
+                    rowspan="6">
+                    <b>Hours</b>
+                </td>
+                <td align="center">
+                    <b>Mon</b>
+                </td>
+                <td align="center">
+                    <b>Tue</b>
+                </td>
+                <td align="center">
+                    <b>Wed</b>
+                </td>
+                <td align="center">
+                    <b>Thu</b>
+                </td>
+                <td align="center">
+                    <b>Fri</b>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"> Science
+                <td align="center"> Maths
+                <td align="center"> Science
+                <td align="center"> Maths
+                <td align="center"> Arts
+            </tr>
+            <tr>
+                <td align="center"> Social
+                <td align="center"> History
+                <td align="center"> English
+                <td align="center"> Social
+                <td align="center"> Sports
+            </tr>
+            <tr>
+                <td align="center" colspan="5"><b>Launch</b> 
+                    <img src="PATH" alt="" height=15 width=15></img>
+            </tr>
+            <tr>
+                <td align="center"> Science
+                <td align="center"> Maths
+                <td align="center"> Science
+                <td align="center"> Maths
+                <td align="center" rowspan="2"> Project
+                <img src="PATH" alt="" height=15 width=15></img>
+            </tr>
+            <tr>
+                <td align="center"> Social
+                <td align="center"> History
+                <td align="center"> English
+                <td align="center"> Social
+            </tr>
+        </table>
+    </body>
+</html>
