@@ -1,0 +1,13 @@
+Option Explicit
+
+Sub KleinsterGemeinsamer()
+
+    'Declare variable
+    Dim ws As Worksheet
+    
+    Set ws = Worksheets("Tabelle1")
+    
+    'return lowest number in range
+    ws.Range("C2") = Application.WorksheetFunction.Small(ws.Range("A1:A6"), 1)
+    
+End Sub
