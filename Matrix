@@ -1,0 +1,20 @@
+Public Sub Matrix()
+    
+    'I2 = B2*E2 + C2*E3
+    Cells(2, 9) = Cells(2, 2) * Cells(2, 5) + Cells(2, 3) * Cells(3, 5)
+    
+    'J2 = B2*F2 + C2*F3
+    Cells(2, 10) = Cells(2, 2) * Cells(2, 6) + Cells(2, 3) * Cells(3, 6)
+    
+    'J2 = B2*G2 + C2*G3
+    Cells(2, 11) = Cells(2, 2) * Cells(2, 7) + Cells(2, 3) * Cells(3, 7)
+
+    Cells(3, 9) = Cells(3, 2) * Cells(2, 5) + Cells(3, 3) * Cells(3, 5)
+    Cells(3, 10) = Cells(3, 2) * Cells(2, 6) + Cells(3, 3) * Cells(3, 6)
+    Cells(3, 11) = Cells(3, 2) * Cells(2, 7) + Cells(3, 3) * Cells(3, 7)
+    
+    Cells(4, 9) = Cells(4, 2) * Cells(2, 5) + Cells(4, 3) * Cells(3, 5)
+    Cells(4, 10) = Cells(4, 2) * Cells(2, 6) + Cells(4, 3) * Cells(3, 6)
+    Cells(4, 11) = Cells(4, 2) * Cells(2, 7) + Cells(4, 3) * Cells(3, 7)
+
+End Sub
